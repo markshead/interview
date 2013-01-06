@@ -10,22 +10,22 @@ public class TestReverse {
 
 	@Test
 	public void test_palindrome() {
-		assertEquals(reverse.reverse("ababa"), "ababa");
+		assertEquals("ababa", reverse.reverse("ababa"));
 	}
 	
 	@Test
 	public void test_reverse() {
-		assertEquals(reverse.reverse("esrever"), "reverse");
+		assertEquals("reverse", reverse.reverse("esrever"));
 	}
 	
 	@Test
 	public void test_house() {
-		assertEquals(reverse.reverse("house"), "esuoh");
+		assertEquals("reverse", reverse.reverse("house"));
 	}
 
 	@Test
 	public void test_single_letter() {
-		assertEquals(reverse.reverse("a"), "a");
+		assertEquals("a", reverse.reverse("a"));
 	}
 	
 

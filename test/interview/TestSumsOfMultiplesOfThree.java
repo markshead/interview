@@ -10,50 +10,48 @@ public class TestSumsOfMultiplesOfThree {
 
 	@Test
 	public void test_0() {
-		assertEquals(sum.multiplesOfThree(0), 0);
+		assertEquals(0, sum.multiplesOfThree(0));
 	}
 	
 	@Test
 	public void test_1() {
-		assertEquals(sum.multiplesOfThree(1), 0);
+		assertEquals(0, sum.multiplesOfThree(1));
 	}
 	
 	@Test
 	public void test_negative_1() {
-		assertEquals(sum.multiplesOfThree(-1), 0);
+		assertEquals(0, sum.multiplesOfThree(-1));
 	}
 
 	@Test
 	public void test_3() {
-		assertEquals(sum.multiplesOfThree(3), 3);
+		assertEquals(3, sum.multiplesOfThree(3));
 	}
 	
 	@Test
 	public void test_negative_3() {
-		assertEquals(sum.multiplesOfThree(-3), -3);
+		assertEquals(-3, sum.multiplesOfThree(-3));
 	}
 
 	@Test
 	public void test_6() {
-		assertEquals(sum.multiplesOfThree(6), 9);
+		assertEquals(9, sum.multiplesOfThree(6));
 	}
 	
 	@Test
 	public void test_negative_6() {
-		assertEquals(sum.multiplesOfThree(-6), -9);
+		assertEquals(-9, sum.multiplesOfThree(-6));
 	}
 	
 	@Test
 	public void test_10() {
-		assertEquals(sum.multiplesOfThree(10), 18);
+		assertEquals(18, sum.multiplesOfThree(10));
 	}
 	
 	@Test
 	public void test_12() {
-		assertEquals(sum.multiplesOfThree(12), 30);
+		assertEquals(30, sum.multiplesOfThree(12));
 	}
-
-
 
 
 }
