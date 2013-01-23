@@ -20,7 +20,7 @@ public class TestReverse {
 	
 	@Test
 	public void test_house() {
-		assertEquals("reverse", reverse.reverse("house"));
+		assertEquals("esuoh", reverse.reverse("house"));
 	}
 
 	@Test
